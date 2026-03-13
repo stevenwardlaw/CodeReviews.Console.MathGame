@@ -3,7 +3,7 @@
     internal class MathGame
     {
         // Fields to keep score, number of questions & player choice of game
-        public int score { get; private set; }
+        public int Score { get; private set; }
         private int numQuestions;
         private int playerGameChoice;
 
@@ -13,13 +13,13 @@
         // Set fields to starting values in constructor
         public MathGame(int numQuestions)
         {
-            score = 0;
+            Score = 0;
             this.numQuestions = numQuestions;
         }
 
         public MathGame()
         {
-            score = 0;
+            Score = 0;
             numQuestions = 5;
         }
 
@@ -116,8 +116,8 @@
 
             if (playerGuess == correctAnswer)
             {
-                score++;
-                Console.WriteLine($"That's correct! Your score is now {score}.");
+                Score++;
+                Console.WriteLine($"That's correct! Your score is now {Score}.");
             }
             else
             {

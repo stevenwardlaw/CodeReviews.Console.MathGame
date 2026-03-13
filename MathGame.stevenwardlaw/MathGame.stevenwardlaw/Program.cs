@@ -15,8 +15,8 @@
 
                 currentGame.RunGame();
 
-                Console.WriteLine($"Quiz complete. Your final score is {currentGame.score}.");
-                scoreHistory.Add(currentGame.score);
+                Console.WriteLine($"Quiz complete. Your final score is {currentGame.Score}.");
+                scoreHistory.Add(currentGame.Score);
 
                 Console.WriteLine("Would you like to play again or see your score history? " +
                     "1 - Play again. 2 - See score history. 3 - Exit game.");
